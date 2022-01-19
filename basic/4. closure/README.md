@@ -110,4 +110,35 @@ for (let i = 1; i <= 5; i++) {
 5
 ```
 
+var counter = (function() {
+  var privateCounter = 0;
+  function changeBy(val) {
+    privateCounter += val;
+  }
+
+  return {
+    increment: function() {
+      changeBy(1);
+    },
+
+    decrement: function() {
+      changeBy(-1);
+    },
+
+    value: function() {
+      return privateCounter;
+    }
+  };
+})();
+
+console.log(counter.value());  // 0.
+
+counter.increment();
+counter.increment();
+console.log(counter.value());  // 2.
+
+counter.decrement();
+console.log(counter.value());  // 1.
+
+
 অবশেষে আমাদের কাঙ্ক্ষিত আউটপুট ফেলাম। তবে আজ এই পর্যন্ত দেখা পরবর্তী অন্য টপিকে। হ্যাপি কোডিং...
