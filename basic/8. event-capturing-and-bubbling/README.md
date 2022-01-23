@@ -90,3 +90,9 @@ bubbling মডেলে, বিপরীত ঘটবে: ইভেন্টট
 নীচের diagram টি ইভেন্ট প্রবাহের সম্পাদন দেখায়:
 
 ![image](https://user-images.githubusercontent.com/712313/142607997-8b6caa69-3d3d-446c-a223-724218ff532e.png)
+
+Learn More:
+
+https://javascript.info/bubbling-and-capturing
+https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
+
