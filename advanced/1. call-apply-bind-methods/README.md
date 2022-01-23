@@ -200,3 +200,7 @@ console.log(boundInfo(99));
 ```
 
 এই ছিল আজকের Call(), Apply() এবং Bind() মেথড নিয়ে লেখা।
+
+Learn More:
+
+https://javascript.info/bind
